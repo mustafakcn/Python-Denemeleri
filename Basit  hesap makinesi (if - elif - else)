@@ -1,0 +1,33 @@
+print(""" ******************************
+
+Hesap Makinesi Programı
+
+İşlemler;
+
+1. Toplama İşlemi
+
+2. Çıkarma İşlemi
+
+3. Çarpma İşlemi
+
+4. Bölme İşlemi
+
+Sırasıyla iki adet sayı giriniz ve sonra yapöak istediğiniz işlemi seçiniz... 
+
+****************************************""")
+
+a = float(input("Birinci Sayıyı Giriniz:"))
+b = float(input("İkinci Sayıyı Giriniz:"))
+
+islem = int(input("Yapmak istediğiniz İşlemi Seçin:"))
+
+if islem == 1 :
+    print("Toplama İşlemi Sonucu:", a+b)
+elif islem == 2:
+    print("Çıkarma İşlemi Sonucu:", a-b)
+elif islem == 3:
+    print("Çarpma İşlemi Sonucu:", a*b)
+elif islem == 4:
+    print("Bölme İşlemi Sonucu:", a/b)
+else:
+    print("Doğru bir işlem seçiniz!")
